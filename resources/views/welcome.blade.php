@@ -1,0 +1,803 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+
+    <title>.:: KPI ::.</title>
+    <link rel="icon" href="gg.png" type="image/png">
+    <link rel="shortcut icon" href="{{ asset('assets_frontend/img/gg.png') }}">
+
+    <link href="{{ asset('assets_frontend/css/google-font.css') }}" rel='stylesheet' type='text/css'>
+    <link href="{{ asset('assets_frontend/css/google-font2.css') }}" rel='stylesheet' type='text/css'>
+
+    <link href="{{ asset('assets_frontend/css/bootstrap.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets_frontend/css/style.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets_frontend/css/font-awesome.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets_frontend/css/responsive.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets_frontend/css/magnific-popup.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('assets_frontend/css/animate.css') }}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="{{ asset('assets_frontend/js/jquery.1.8.3.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets_frontend/js/bootstrap.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets_frontend/js/jquery-scrolltofixed.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets_frontend/js/jquery.easing.1.3.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets_frontend/js/jquery.isotope.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets_frontend/js/wow.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets_frontend/js/classie.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets_frontend/js/magnific-popup.js') }}"></script>
+    <script src="{{ asset('assets_frontend/contactform/contactform.js') }}"></script>
+
+    <!-- =======================================================
+    Theme Name: Knight
+    Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+    ======================================================= -->
+
+</head>
+
+<body>
+    <header class="header" id="header">
+        <!--header-start-->
+        <div class="container">
+            <figure class="logo animated fadeInDown delay-07s">
+                <a href="#"><img src="{{ asset('assets_frontend/img/gg.png') }}" alt=""></a>
+            </figure>
+            <h1 class="animated fadeInDown delay-07s">Welcome To ORAL Application</h1>
+            <h1 class="animated fadeInDown delay-07s">A Performance Appraisal Application for IT Services</h1>
+            <a class="link animated fadeInUp delay-1s servicelink" href="#service">Get Started</a>
+            <svg viewBox="0 0 600 300">
+                <symbol id="s-text">
+                    <text text-anchor="middle" x="50%" y="35%">GG</text>
+                </symbol>
+
+                <g class="g-ants">
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                </g>
+            </svg>
+
+        </div>
+    </header>
+    <!--header-end-->
+
+    <nav class="main-nav-outer" id="test">
+        <!--main-nav-start-->
+        <div class="container">
+            <ul class="main-nav">
+                <li><a href="#header"><strong>Home</strong></a></li>
+                <li><a href="#service"><strong>Criteria</strong></a></li>
+                <li><a href="#Portfolio"><strong>9 Elements</strong></a></li>
+                <li><a href="#header"><img src="{{ asset('assets_frontend/img/gg3.png') }}" alt=""
+                            style="width: 35%"></a></li>
+                <li><a href="#client"><strong>Process</strong></a></li>
+                <li><a href="#team"><strong>Team</strong></a></li>
+                <li><a href="{{ url('/login') }}"><strong>Login</strong></a></li>
+            </ul>
+            <a class="res-nav_click" href="#"><i class="fa fa-bars"></i></a>
+        </div>
+    </nav>
+    <!--main-nav-end-->
+
+    <section class="main-section" id="service">
+        <!--main-section-start-->
+        <div class="container">
+            <h2><strong>Criteria</strong></h2><br>
+            <h6></h6>
+            <figure class="col-lg-12 col-sm-6 text-center wow fadeInUp delay-02s">
+                <img src="{{ asset('assets_frontend/img/smartkpi.png') }}" alt="">
+            </figure>
+        </div>
+        </div>
+    </section>
+    <!--main-section-end-->
+    <section class="main-section client-part" id="Portfolio">
+        <!--main-section client-part-start-->
+
+        <div class="container">
+            <h2><strong>9 Element Of IPA</strong></h2>
+        </div>
+
+        <h1 class="ml14">
+            <span class="text-wrapper">
+                <span class="letters">Be Prepared</span><br>
+                <span class="letters">Lead Positive</span><br>
+                <span class="letters">Keep it Simple</span><br>
+                <span class="letters">Address Important</span><br>
+                <span class="letters">Be a Good Listener</span><br>
+                <span class="letters">Regular Feedback</span><br>
+                <span class="letters">Do not be Confrontational</span><br>
+                <span class="letters">Be Consistent</span><br>
+                <span class="letters">2 Ways Conversation</span><br>
+                <span class="line"></span>
+            </span>
+        </h1>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <style type="text/css">
+            .ml14 {
+                font-weight: 200;
+                font-size: 3.2em;
+            }
+
+            .ml14 .text-wrapper {
+                position: relative;
+                display: inline-block;
+                padding-top: 0.1em;
+                padding-right: 0.05em;
+                padding-bottom: 0.15em;
+            }
+
+            .ml14 .line {
+                opacity: 0;
+                position: absolute;
+                left: 0;
+                height: 2px;
+                width: 100%;
+                background-color: #fff;
+                transform-origin: 100% 100%;
+                bottom: 0;
+            }
+
+            .ml14 .letter {
+                display: inline-block;
+                line-height: 1em;
+            }
+
+        </style>
+        <script type="text/javascript">
+            // Wrap every letter in a span
+            $('.ml14 .letters').each(function() {
+                $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+            });
+
+            anime.timeline({
+                    loop: true
+                })
+                .add({
+                    targets: '.ml14 .line',
+                    scaleX: [0, 1],
+                    opacity: [0.5, 1],
+                    easing: "easeInOutExpo",
+                    duration: 900
+                }).add({
+                    targets: '.ml14 .letter',
+                    opacity: [0, 1],
+                    translateX: [40, 0],
+                    translateZ: 0,
+                    scaleX: [0.3, 1],
+                    easing: "easeOutExpo",
+                    duration: 800,
+                    offset: '-=600',
+                    delay: function(el, i) {
+                        return 150 + 25 * i;
+                    }
+                }).add({
+                    targets: '.ml14',
+                    opacity: 0,
+                    duration: 1000,
+                    easing: "easeOutExpo",
+                    delay: 1000
+                });
+        </script>
+
+
+        <!--main-section client-part-end-->
+        <div class="c-logo-part">
+            <!--c-logo-part-start-->
+            <div class="container">
+
+            </div>
+        </div>
+
+        <section class="main-section client-part" id="client">
+            <!--main-section client-part-start-->
+
+            <div class="container">
+                <h2><strong>PROCESS</strong></h2>
+            </div>
+            <b class="wow fadeInDown delay-03"></b>
+            <div class="row">
+
+                <figure class="col-lg-12 col-sm-6 text-center wow fadeInUp delay-02s">
+                    <img src="{{ asset('assets_frontend/img/process2.png') }}" alt="">
+                </figure>
+
+            </div>
+
+
+
+            </div>
+            </div>
+        </section>
+
+        <!--main-section client-part-end-->
+        <div class="c-logo-part">
+        </div>
+
+        <!--c-logo-part-end-->
+        <section class="main-section team" id="team">
+            <!--main-section team-start-->
+            <div class="container">
+                <h2><strong>TEAM</strong></h2>
+                <h6><strong>Take a closer look into our amazing team</strong></h6>
+
+
+                <h2><strong>Leaders</strong></h2><br>
+
+
+                <div class="our-services-wrapper mb-60">
+
+                    <div class="text-center">
+                        <img class="mx-auto d-block" src="{{ asset('assets_frontend/img/leaders.jpg') }}"
+                            width="800px" alt="">
+                    </div>
+                </div>
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="our-services-wrapper mb-60">
+                        <div class="services-inner">
+
+
+                            <div class="text-center">
+                                <div class="our-services-text">
+                                    <img class="mx-auto d-block" src="{{ asset('assets_frontend/img/ggjkt.jpg') }}"
+                                        width="300px" alt="" align="center">
+                                    <h4>JAKARTA</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="our-services-wrapper mb-60">
+                        <div class="services-inner">
+                            <div class="text-center">
+                                <div class="our-services-img">
+                                </div>
+                                <div class="our-services-text">
+                                    <img src="{{ asset('assets_frontend/img/ggkdr.jpg') }}" width="300px" alt="">
+                                    <h4>KEDIRI</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="our-services-wrapper mb-60">
+                        <div class="services-inner">
+                            <div class="text-center">
+                                <div class="our-services-img">
+                                </div>
+                                <div class="our-services-text">
+                                    <img src="{{ asset('assets_frontend/img/gggmp.jpg') }}" width="300px" alt="">
+                                    <h4>GEMPOL</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="our-services-wrapper mb-60">
+                        <div class="services-inner">
+                            <div class="text-center">
+                                <div class="our-services-img">
+                                </div>
+                                <div class="our-services-text">
+                                    <img src="{{ asset('assets_frontend/img/ggsby.jpg') }}" width="300px" alt="">
+                                    <h4>SURABAYA</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="our-services-wrapper mb-60">
+                        <div class="services-inner">
+                            <div class="text-center">
+                                <div class="our-services-img">
+                                </div>
+                                <div class="our-services-text">
+                                    <img src="{{ asset('assets_frontend/img/gghd.jpg') }}" width="300px" alt="">
+                                    <h4>HELPDESK</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                    <div class="our-services-wrapper mb-60">
+                        <div class="services-inner">
+                            <div class="text-center">
+                                <div class="our-services-img">
+                                </div>
+                                <div class="our-services-text">
+                                    <img src="{{ asset('assets_frontend/img/itasset.jpg') }}" width="400px" alt="">
+                                    <h4>IT ASSET</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--main-section team-end-->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-logo"><a href="#"><img src="{{ asset('assets_frontend/img/gg.png') }}"
+                            alt=""></a></div>
+                <span class="copyright">&copy; PT. Gudang Garam Tbk. All Rights Reserved</span>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript">
+            $(document).ready(function(e) {
+
+                $('#test').scrollToFixed();
+                $('.res-nav_click').click(function() {
+                    $('.main-nav').slideToggle();
+                    return false
+
+                });
+
+                $('.Portfolio-box').magnificPopup({
+                    delegate: 'a',
+                    type: 'image'
+                });
+
+            });
+        </script>
+
+        <script>
+            wow = new WOW({
+                animateClass: 'animated',
+                offset: 100
+            });
+            wow.init();
+        </script>
+
+
+        <script type="text/javascript">
+            $(window).load(function() {
+
+                $('.main-nav li a, .servicelink').bind('click', function(event) {
+                    var $anchor = $(this);
+
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top - 102
+                    }, 1500, 'easeInOutExpo');
+                    /*
+                    if you don't want to use the easing effects:
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1000);
+                    */
+                    if ($(window).width() < 768) {
+                        $('.main-nav').hide();
+                    }
+                    event.preventDefault();
+                });
+            })
+        </script>
+
+        <script type="text/javascript">
+            $(window).load(function() {
+
+
+                var $container = $('.portfolioContainer'),
+                    $body = $('body'),
+                    colW = 375,
+                    columns = null;
+
+
+                $container.isotope({
+                    // disable window resizing
+                    resizable: true,
+                    masonry: {
+                        columnWidth: colW
+                    }
+                });
+
+                $(window).smartresize(function() {
+                    // check if columns has changed
+                    var currentColumns = Math.floor(($body.width() - 30) / colW);
+                    if (currentColumns !== columns) {
+                        // set new column count
+                        columns = currentColumns;
+                        // apply width to container manually, then trigger relayout
+                        $container.width(columns * colW)
+                            .isotope('reLayout');
+                    }
+
+                }).smartresize(); // trigger resize to set container width
+                $('.portfolioFilter a').click(function() {
+                    $('.portfolioFilter .current').removeClass('current');
+                    $(this).addClass('current');
+
+                    var selector = $(this).attr('data-filter');
+                    $container.isotope({
+
+                        filter: selector,
+                    });
+                    return false;
+                });
+
+            });
+        </script>
+
+        </style>
+
+        <style type="text/css">
+            @import url("css/google.css");
+
+            html,
+            body {
+                height: 10%;
+                font-weight: 50;
+            }
+
+            body {
+                font-family: Arial;
+            }
+
+            svg {
+                display: block;
+                font: 10.5em 'Montserrat';
+                width: 960px;
+                height: 300px;
+                margin: 0 auto;
+            }
+
+            .text-copy {
+                fill: none;
+                stroke: white;
+                stroke-dasharray: 6% 29%;
+                stroke-width: 5px;
+                stroke-dashoffset: 0%;
+                animation: stroke-offset 5.5s infinite linear;
+            }
+
+            .text-copy:nth-child(1) {
+                stroke: #4D163D;
+                animation-delay: -1;
+            }
+
+            .text-copy:nth-child(2) {
+                stroke: #840037;
+                animation-delay: -2s;
+            }
+
+            .text-copy:nth-child(3) {
+                stroke: #BD0034;
+                animation-delay: -3s;
+            }
+
+            .text-copy:nth-child(4) {
+                stroke: #BD0034;
+                animation-delay: -4s;
+            }
+
+            .text-copy:nth-child(5) {
+                stroke: #FDB731;
+                animation-delay: -5s;
+            }
+
+            @keyframes stroke-offset {
+                100% {
+                    stroke-dashoffset: -35%;
+                }
+            }
+
+        </style>
+
+        <!-- Animasi Arrow -->
+        <style type="text/css">
+            #app {
+                margin: auto;
+                width: 50%;
+            }
+
+            .arrow {
+                position: relative;
+                font-size: 13px;
+                max-width: 200px;
+                background: #D94F1A;
+                height: 40px;
+                line-height: 40px;
+                margin-bottom: 30px;
+                text-align: center;
+                color: white;
+                box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+                visibility: hidden;
+                opacity: 0;
+                transition: visibility 0s, opacity 0.3s ease-in-out;
+            }
+
+            .arrow.arrow-small {
+                width: 40px;
+                height: 30px;
+            }
+
+            .arrow.arrow-small.arrow-top {
+                border-radius: 0 0 5px 5px;
+            }
+
+            .arrow.arrow-small.arrow-bottom {
+                border-radius: 5px 5px 0 0;
+            }
+
+
+            .arrow.active {
+                visibility: visible;
+                opacity: 1;
+            }
+
+            .arrow.active.animate-left-to-right {
+                animation-name: move-left-to-right;
+                animation-duration: 1s;
+                animation-delay: 0.6s;
+                animation-iteration-count: infinite;
+                animation-direction: alternative;
+            }
+
+            .arrow.active.animate-right-to-left {
+                animation-name: move-right-to-left;
+                animation-duration: 1s;
+                animation-delay: 0.6s;
+                animation-iteration-count: infinite;
+                animation-direction: alternative;
+            }
+
+            .arrow.active.animate-bottom-to-top {
+                animation-name: move-bottom-to-top;
+                animation-duration: 1s;
+                animation-delay: 0.6s;
+                animation-iteration-count: infinite;
+                animation-direction: alternative;
+            }
+
+            .arrow.active.animate-top-to-bottom {
+                animation-name: move-top-to-bottom;
+                animation-duration: 1s;
+                animation-delay: 0.6s;
+                animation-iteration-count: infinite;
+                animation-direction: alternative;
+            }
+
+            @keyframes move-left-to-right {
+                0% {
+                    transform: translateX(5%);
+                    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+                }
+
+                50% {
+                    transform: translateX(15%);
+                    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
+                }
+
+                100% {
+                    transform: translateX(5%);
+                    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+                }
+            }
+
+            @keyframes move-right-to-left {
+                0% {
+                    transform: translateX(-5%);
+                    box-shadow: -3px 5px 5px rgba(0, 0, 0, 0.2);
+                }
+
+                50% {
+                    transform: translateX(-15%);
+                    box-shadow: -3px 5px 5px rgba(0, 0, 0, 0.4);
+                }
+
+                100% {
+                    transform: translateX(-5%);
+                    box-shadow: -3px 5px 5px rgba(0, 0, 0, 0.2);
+                }
+            }
+
+            @keyframes move-bottom-to-top {
+                0% {
+                    transform: translateY(-5%);
+                    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
+                }
+
+                50% {
+                    transform: translateY(-15%);
+                    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+                }
+
+                100% {
+                    transform: translateY(-5%);
+                    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
+                }
+            }
+
+            @keyframes move-top-to-bottom {
+                0% {
+                    transform: translateY(5%);
+                    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+                }
+
+                50% {
+                    transform: translateY(15%);
+                    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.4);
+                }
+
+                100% {
+                    transform: translateY(5%);
+                    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+                }
+            }
+
+
+            /*top arrow*/
+
+            .arrow-top,
+            .arrow-bottom {
+                border-radius: 100px;
+            }
+
+            .arrow-top:before {
+                position: absolute;
+                top: -10px;
+                left: 50%;
+                margin-left: -10px;
+                content: "";
+                display: block;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-bottom: 10px solid #D94F1A;
+            }
+
+            .arrow-small.arrow-top:before {
+                top: -20px;
+                margin-left: -20px;
+                border-left: 20px solid transparent;
+                border-right: 20px solid transparent;
+                border-bottom: 20px solid #D94F1A;
+                border-radius: 0;
+            }
+
+            /*bottom arrow*/
+
+            .arrow-bottom:after {
+                position: absolute;
+                bottom: -10px;
+                left: 50%;
+                margin-left: -10px;
+                content: "";
+                display: block;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 10px solid #D94F1A;
+            }
+
+            .arrow-small.arrow-bottom:after {
+                bottom: -20px;
+                margin-left: -20px;
+                border-left: 20px solid transparent;
+                border-right: 20px solid transparent;
+                border-top: 20px solid #D94F1A;
+                border-radius: 0;
+            }
+
+            /*right arrow*/
+
+            .arrow-right {
+                border-radius: 5px 0px 0 5px;
+            }
+
+            .arrow-right:after {
+                content: "";
+                position: absolute;
+                right: -20px;
+                top: 0;
+                border-top: 20px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-left: 20px solid #D94F1A;
+            }
+
+
+            /*left arrow*/
+
+            .arrow-left {
+                border-radius: 0 5px 5px 0;
+            }
+
+            .arrow-left:before {
+                content: "";
+                position: absolute;
+                left: -20px;
+                top: 0;
+                border-top: 20px solid transparent;
+                border-bottom: 20px solid transparent;
+                border-right: 20px solid #D94F1A;
+            }
+
+        </style>
+
+        <!-- Class Arrow -->
+        <script type="text/javascript">
+            $('.arrow').addClass('active')
+        </script>
+
+        <!-- style gallery -->
+
+        <style type="text/css">
+            .mb-60 {
+                margin-bottom: 60px;
+            }
+
+            .services-inner {
+                border: 2px solid #48c7ec;
+                margin-left: 35px;
+                transition: .3s;
+            }
+
+            .our-services-img {
+                float: left;
+                margin-left: -36px;
+                margin-right: 22px;
+                margin-top: 28px;
+            }
+
+            .our-services-text {
+                padding-right: 10px;
+            }
+
+            .our-services-text {
+                overflow: hidden;
+                padding: 28px 0 25px;
+            }
+
+            .our-services-text h4 {
+                color: #222222;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                margin-bottom: 8px;
+                padding-bottom: 10px;
+                position: relative;
+                text-transform: uppercase;
+            }
+
+            .our-services-wrapper:hover .services-inner {
+                background: #fff none repeat scroll 0 0;
+                border: 2px solid transparent;
+                box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+            }
+
+            .our-services-text p {
+                margin-bottom: 0;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                /*line-height: 26px;*/
+                color: #666;
+                margin-bottom: 15px;
+            }
+
+        </style>
+</body>
+
+</html>
