@@ -4,10 +4,13 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
+use LdapRecord\Laravel\Auth\AuthenticatesWithLdap;
+use LdapRecord\Laravel\Auth\LdapAuthenticatable;
 
-class Member extends Authenticatable
+class Member extends Authenticatable implements LdapAuthenticatable
 {
-    use HasFactory;
+    use Notifiable, AuthenticatesWithLdap;
 
     const CREATED_AT = 'm_created_at';
     const UPDATED_AT = 'm_updated_at';
@@ -48,5 +51,15 @@ class Member extends Authenticatable
     public function scopeActive($query)
     {
         $query->where('m_status', 'aktif');
+    }
+
+    public function getLdapDomainColumn()
+    {
+        return 'domain';
+    }
+
+    public function getLdapGuidColumn()
+    {
+        return 'guid';
     }
 }

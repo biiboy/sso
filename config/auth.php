@@ -40,6 +40,10 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'default' => [
+            'driver' => 'session',
+            'provider' => 'default',
+        ],
     ],
 
     /*
@@ -62,17 +66,26 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'ldap',
-            'model' => App\Models\Member::class,
+            'model' => LdapRecord\Models\ActiveDirectory\User::class,
+            'rules' => [],
+            'database' => [
+                'model' => App\Models\Member::class,
+                'sync_passwords' => false,
+                'password_column' => 'm_password',
+                'sync_attributes' => [
+                    'name' => 'cn',
+                    'email' => 'mail',
+                ],
+            ],
         ],
-        'users' => [
-            'driver' => 'eloquent',
-            'model' => App\Models\Member::class,
-        ],
-
         // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
+        //     'driver' => 'eloquent',
+        //     'model' => App\Models\Member::class,
         // ],
+        'default' => [
+            'driver' => 'ldap',
+            'model' => App\Ldap\GG\User::class,
+        ],
     ],
 
     /*
